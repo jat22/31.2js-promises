@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<h3>Number Facts</h3>
+		<div>
+			<form id="num-form">
+				<label for="nums">Enter a list of comma seperated integers:</label>
+				<input type="text" id="nums" name="nums">
+				<button type="submit" id="fact-search-btn">Get Facts</button>
+			</form>
+		</div>
+		<div id="num-facts-container">
+			<ul id="num-facts-list"></ul>
+		</div>
+	</div>
+	<div>
+		<h3>Get Four Facts</h3>
+		<div>
+			<form>
+				<label for="4-facts-num">Enter your favorite number:</label>
+				<input type="text" id="4-facts-num" name="4-facts-num">
+				<button type="submit" id="four-facts-search-btn">Get 4 Facts</button>
+			</form>
+		</div>
+		<div>
+			<ul id="4-facts-list"></ul>
+		</div>
+	</div>
+
+	<script src="https://unpkg.com/jquery"></script>
+	<script src="https://unpkg.com/axios/dist/axios.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
+
